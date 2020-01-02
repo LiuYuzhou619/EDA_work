@@ -1,0 +1,3 @@
+verilog work "data_send.v"
+verilog work "tb_data.v"
+verilog work "E:/Xilink/14.7/ISE_DS/ISE//verilog/src/glbl.v"

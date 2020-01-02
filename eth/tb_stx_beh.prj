@@ -1,0 +1,4 @@
+verilog isim_temp "tx.v"
+verilog isim_temp "uart_tx.v"
+verilog isim_temp "tb.v"
+verilog isim_temp "E:/Xilink/14.7/ISE_DS/ISE//verilog/src/glbl.v"

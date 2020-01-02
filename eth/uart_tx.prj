@@ -1,0 +1,2 @@
+verilog work "tx.v"
+verilog work "uart_tx.v"

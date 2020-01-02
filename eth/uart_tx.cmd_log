@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/EDA/eth/eth/uart_tx.xst" -ofn "D:/EDA/eth/eth/uart_tx.syr" 

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/EDA/eth/eth/ethernet.xst" -ofn "D:/EDA/eth/eth/ethernet.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/ethernet.xst" -ofn "D:/EDA/eth/eth/ethernet.syr" 

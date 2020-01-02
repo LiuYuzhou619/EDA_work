@@ -1,0 +1,6 @@
+verilog work "ipsend.v"
+verilog work "ipreceive.v"
+verilog work "crc.v"
+verilog work "udp.v"
+verilog work "ipcore_dir/fifo.v"
+verilog work "eth.v"

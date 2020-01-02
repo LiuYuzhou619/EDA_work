@@ -1,0 +1,3 @@
+verilog isim_temp "data_send.v"
+verilog isim_temp "tb_data.v"
+verilog isim_temp "E:/Xilink/14.7/ISE_DS/ISE//verilog/src/glbl.v"

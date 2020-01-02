@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/EDA/eth/eth/tb_data_isim_beh.exe" -prj "D:/EDA/eth/eth/tb_data_beh.prj" "work.tb_data" "work.glbl" 

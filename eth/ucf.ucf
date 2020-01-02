@@ -1,0 +1,24 @@
+########LED Pin define#####################
+Net clk  LOC = V10 | TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 50000 kHz;
+
+NET rst                    LOC = N4 | IOSTANDARD = "LVCMOS15"; ## SW2 pushbutton
+
+########LED Pin define#####################
+NET E_RXDV                 LOC = H15 | IOSTANDARD = "LVCMOS33"; 	  ## Ethernet RXDV
+NET E_RESET                LOC = J16 | IOSTANDARD = "LVCMOS33";  	  ## Ethernet RESET
+NET E_RXC                  LOC = L16 | IOSTANDARD = "LVCMOS33"; 	  ## Ethernet RXC
+NET E_RXD<0>               LOC = G13 | IOSTANDARD = "LVCMOS33";  	  ## Ethernet RXD0
+NET E_RXD<1>               LOC = E16 | IOSTANDARD = "LVCMOS33";  	  ## Ethernet RXD1
+NET E_RXD<2>               LOC = E18 | IOSTANDARD = "LVCMOS33";  	  ## Ethernet RXD2
+NET E_RXD<3>               LOC = K12 | IOSTANDARD = "LVCMOS33";  	  ## Ethernet RXD3
+
+NET E_TXC                  LOC = K16 | IOSTANDARD = "LVCMOS33";  	  ## Ethernet TXC
+NET E_TXD<0>               LOC = H16 | IOSTANDARD = "LVCMOS33";  	  ## Ethernet TXD0
+NET E_TXD<1>               LOC = G16 | IOSTANDARD = "LVCMOS33";  	  ## Ethernet TXD1
+NET E_TXD<2>               LOC = G18 | IOSTANDARD = "LVCMOS33";  	  ## Ethernet TXD2
+NET E_TXD<3>               LOC = J13 | IOSTANDARD = "LVCMOS33";  	  ## Ethernet TXD3
+NET E_TXEN                 LOC = K17 | IOSTANDARD = "LVCMOS33";  	  ## Ethernet TXEN
+NET E_TXER                 LOC = J18 | IOSTANDARD = "LVCMOS33";       ## Ethernet TXER
+NET tx                     LOC = C4  | IOSTANDARD = "LVCMOS33"; 	  ## Uart TXD:U8_RXD   C4
+NET txd                    LOC = N11 | IOSTANDARD = "LVCMOS33"; 	  ## Uart TXD:U8_RXD   C4

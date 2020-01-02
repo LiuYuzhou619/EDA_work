@@ -1,0 +1,264 @@
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "D:/EDA/eth/eth/eth.xst" -ofn "D:/EDA/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-2 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "C:/Users/bigbo/Desktop/project/eth/eth/eth.xst" -ofn "C:/Users/bigbo/Desktop/project/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc7z020-clg400-2 eth_cs.ngc eth.ngd  
+xst -intstyle ise -ifn "C:/Users/bigbo/Desktop/project/eth/eth/eth.xst" -ofn "C:/Users/bigbo/Desktop/project/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "C:/Users/bigbo/Desktop/project/eth/eth/eth.xst" -ofn "C:/Users/bigbo/Desktop/project/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "C:/Users/bigbo/Desktop/project/eth/eth/eth.xst" -ofn "C:/Users/bigbo/Desktop/project/eth/eth/eth.syr" 
+xst -intstyle ise -ifn "C:/Users/bigbo/Desktop/project/eth/eth/eth.xst" -ofn "C:/Users/bigbo/Desktop/project/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "C:/Users/bigbo/Desktop/project/eth/eth/eth.xst" -ofn "C:/Users/bigbo/Desktop/project/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+xst -intstyle ise -ifn "C:/Users/bigbo/Desktop/project/eth/eth/eth.xst" -ofn "C:/Users/bigbo/Desktop/project/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "C:/Users/bigbo/Desktop/project/eth/eth/eth.xst" -ofn "C:/Users/bigbo/Desktop/project/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
+xst -intstyle ise -ifn "C:/Users/bigbo/Desktop/project/eth/eth/eth.xst" -ofn "C:/Users/bigbo/Desktop/project/eth/eth/eth.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 eth_cs.ngc eth.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o eth_map.ncd eth.ngd eth.pcf 
+par -w -intstyle ise -ol high -mt off eth_map.ncd eth.ncd eth.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml eth.twx eth.ncd -o eth.twr eth.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f eth.ut eth.ncd 
